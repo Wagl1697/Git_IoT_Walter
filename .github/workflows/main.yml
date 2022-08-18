@@ -18,7 +18,7 @@ jobs:
     steps:
       - shell: bash
         run: |
-          expr 1 + 1 > output.log
+          expr 1 + 3 > output.log
       - name: Upload output file
         uses: actions/upload-artifact@v3
         with:
