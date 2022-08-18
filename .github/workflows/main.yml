@@ -19,7 +19,7 @@ jobs:
 
     name: Save output
     steps:
-      - shell: bash
+      - shell: pwsh
         run: |
           expr 1 + 1 > output.log
       - name: Upload output file
