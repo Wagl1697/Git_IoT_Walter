@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/funciones/__init__.py
+src/funciones/listaSE.py
+src/funciones/py.typed
+src/funciones.egg-info/PKG-INFO
+src/funciones.egg-info/SOURCES.txt
+src/funciones.egg-info/dependency_links.txt
+src/funciones.egg-info/not-zip-safe
+src/funciones.egg-info/requires.txt
+src/funciones.egg-info/top_level.txt

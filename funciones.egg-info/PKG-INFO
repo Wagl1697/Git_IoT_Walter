@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: funciones
+Version: 0.0.0
+Summary: suma
+Author: Walter Lopez
+Platform: unix
+Platform: linux
+Requires-Python: >=3.6
+Provides-Extra: testing

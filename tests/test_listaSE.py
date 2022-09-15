@@ -7,7 +7,8 @@ import sys
 print(sys.path)
 import unittest
 import random
-from modulos.listaSE import Lista
+from funciones.listaSE import Lista
+#from listaSE import Lista
 
 
 class TestListaSE(unittest.TestCase):

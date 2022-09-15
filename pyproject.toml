@@ -1,15 +1,17 @@
-[build-system]
-requires = ["setuptools>=42.0", "wheel"]
+[build-system]								#Herramientas que facilitan el empaquetado de proyectos de Python. 
+requires = ["setuptools>=42.0", "wheel"]	
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-addopts = "--cov=funciones"
-testpaths = [
-    "tests",
+#addopts = "--cov=funciones"				#Ejemplo de adición de otras herramientas
+testpaths = [								#Nombre de la carpeta donde estan guardados los tests.
+    "tests",								#Es deseable que para evitar el cambio de estos archivos se mantenga este formato.
 ]
 
 [tool.mypy]
-mypy_path = "src"
+#Carpeta en la que se encuentran los programas a testear
+mypy_path = "src"							
+#Configuraciones generales
 check_untyped_defs = true
 disallow_any_generics = true
 ignore_missing_imports = true
